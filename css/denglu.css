@@ -1,0 +1,180 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 微软雅黑;
+}
+a{
+    text-decoration: none;
+}
+i{
+    font-style: normal;
+}
+.page{
+    width: 100%;
+    height: 900px;
+    background:#FDFBFE;
+}
+.main{
+    width: 1226px;
+    margin:0 auto 0 auto;
+    /*background:blue;*/
+    overflow: hidden;
+}
+.page .main .top{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.page .main .top .left{
+    width:300px;
+    height: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page .main .top .left span:nth-child(1){
+    font-size: 30px;
+    color:#EC4EA6;
+}
+.page .main .top .left span:nth-child(2){
+    font-size: 18px;
+}
+.page .main .top .right{
+    width: 400px;
+    height: 100%;
+    font-size:18px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.page .main .top .right i{
+    font-size:24px;
+    color:#EC4EA6;
+}
+.page .main .bottom{
+    width: 100%;
+    height:600px;
+    background-image: url("../img/shouye/denglu.png");
+    background-size: cover;
+    position: relative;
+}
+.page .main .bottom .box{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top:80px;
+    right:180px;
+    display: flex;
+    flex-direction: column;
+    /*padding:10px;*/
+    /*box-sizing: border-box;*/
+}
+.page .main .bottom .box .topp{
+    width: 100%;
+    height: 20px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+.page .main .bottom .box .topp a{
+    color:#EC4EA6;
+}
+.page .main .bottom .box .phone{
+    width: 298px;
+    height: 30px;
+    border:1px solid #B2B2B2;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.page .main .bottom .box .password{
+    width: 298px;
+    height: 30px;
+    border:1px solid #B2B2B2;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.page .main .bottom .box input{
+    width: 298px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.page .main .bottom .box .forget{
+    width:300px;
+    height: 30px;
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 30px;
+}
+.page .main .bottom .box .forget a:hover{
+    color:#EC4EA6;
+}
+.page .main .bottom .box .forget a i{
+    font-size: 12px;
+}
+.page .main .bottom .box button{
+    width: 100%;
+    height: 40px;
+    background:#EC4EA6;
+    margin-top: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    color:#fff;
+    border: none;
+    outline: none;
+}
+.page .main .bottom .box .more{
+    width: 100%;
+    height: 60px;
+    margin-top:46px;
+    font-size: 12px;
+}
+.page .main .bottom .box .more .shang{
+    width: 100%;
+    height: 20px;
+}
+.page .main .bottom .box .more .xia{
+    width: 100%;
+    height: 40px;
+}
+.page .main .bottom .box .more .xia a i{
+    font-size: 24px;
+    margin-right: 10px;
+}
+.page .main .bottom .box .more .xia a:nth-child(1){
+    color:blue;
+}
+.page .main .bottom .box .more .xia a:nth-child(2){
+    color:green;
+}
+.page .main .bottom .box .more .xia a:nth-child(3){
+    color:orangered;
+}
+.page .zi{
+    width: 100%;
+    height: 20px;
+    font-size: 12px;
+    color:#8B7074;
+    line-height: 20px;
+    text-align: center;
+    margin-top:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

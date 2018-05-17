@@ -1,0 +1,628 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 微软雅黑;
+}
+a{
+    text-decoration: none;
+}
+i{
+    font-style: normal;
+}
+ul{
+    list-style:none;
+}
+.topNav{
+    width: 100%;
+    height: 28px;
+    background:#F8F8F8;
+    display: flex;
+    color:#777;
+}
+.main{
+    width: 1226px;
+    margin:0 auto 0 auto;
+    /*background:blue;*/
+    overflow: hidden;
+}
+.topNav .main .topNav2{
+    width: 100%;
+    height: 28px;
+    display: flex;
+    justify-content: space-between;
+}
+.topNav .main .topNav2 .zuo{
+    width: 300px;
+    height: 100%;
+    /*background:pink;*/
+    font-size: 12px;
+    color:#F10180;
+    line-height: 28px;
+}
+.topNav .main .topNav2 .zuo a:nth-child(1){
+    color:#CECBCB;
+    margin-right: 20px;
+}
+.topNav .main .topNav2 .zuo a:nth-child(2):hover{
+    color:#F10180;
+}
+.topNav .main .topNav2 .zuo a:nth-child(2){
+    margin-right: 20px;
+}
+.topNav .main .topNav2 .zuo a:nth-child(3):hover{
+    color:#F10180;
+}
+.topNav .main .topNav2 .you{
+    width: 300px;
+    height: 100%;
+    /*background:pink;*/
+    font-size: 12px;
+    line-height: 28px;
+}
+.topNav .main .topNav2 .you a{
+    margin-right: 20px;
+}
+.topNav .main .topNav2 .you a:hover{
+    color:#F10180;
+}
+.soubox{
+    width: 100%;
+    height:40px;
+    /*background:yellow;*/
+}
+.soubox .main .soubox2{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.soubox .main .soubox2 .logo{
+    width:200px;
+    height: 40px;
+    /*background:pink;*/
+}
+.soubox .main .soubox2 .logo b{
+    font-size:30px;
+    color:#F10180;
+}
+.soubox .main .soubox2 .sousuo{
+    width: 400px;
+    height: 40px;
+    /*background:pink;*/
+}
+.soubox .main .soubox2 .sousuo .left{
+    width: 300px;
+    height: 30px;
+    background:#fff;
+    border: 2px solid #F10180;
+    outline: medium;
+}
+.soubox .main .soubox2 .sousuo .left input{
+    border:none;
+    width: 250px;
+    height: 30px;
+    float: left;
+}
+.soubox .main .soubox2 .sousuo .left .anniu{
+    width: 50px;
+    height: 30px;
+    background:#F10180;
+    float:right;
+    font-size: 18px;
+    color:#fff;
+    text-align: center;
+    line-height: 30px;
+}
+.soubox .main .soubox2 .gouwuche{
+    width: 200px;
+    height: 40px;
+    /*background:pink;*/
+}
+.soubox .main .soubox2 .gouwuche .box{
+    width: 150px;
+    height: 30px;
+    border:2px solid #F10180;
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+}
+.soubox .main .soubox2 .gouwuche .box i{
+    font-size: 18px;
+    margin-right: 30px;
+}
+.major{
+    width: 100%;
+    height: 400px;
+    background:pink;
+    position: absolute;
+}
+.major .top{
+    width: 100%;
+    height: 40px;
+    background:#F10180;
+    display: flex;
+}
+.major .top:nth-child(2){
+    width: 100%;
+    height: 40px;
+    background:#F10180;
+    display: flex;
+    position: fixed;
+    top:-40px;
+    left:0;
+    z-index: 999;
+}
+
+.major .top .main .he{
+    width: 100%;
+    height: 100%;
+}
+
+.major .top .main .he{
+    width: 100%;
+    height: 40px;
+    background:#F10180;
+    list-style:none;
+    display: flex;
+}
+.major .top  .main .box{
+    width: 100px;
+    height: 100%;
+    margin-right:20px;
+}
+.major .top .main .box:first-child{
+    width: 200px;
+    height: 100%;
+}
+.major .top .main .he .box:first-child .list{
+    width: 200px;
+    margin-top: -3px;
+    background:#FC46A5;
+    z-index: 1;
+    position: absolute;
+    top:43px;
+    left:62px;
+    display: none;
+}
+.major .top .main .box:first-child:hover .list{
+    display: block;
+}
+.major .top .main .box:first-child .list a .listBox{
+    width: 100%;
+    height: 44px;
+    background:#F72493;
+    font-size: 16px;
+    color:#fff;
+    line-height:47.5px;
+    position: relative;
+}
+.major .top .main .box:first-child .list a .listBox:hover{
+    background:#F10180;
+}
+.major .top .main .box:first-child .list a .listBox i{
+    font-size: 12px;
+    position: absolute;
+    top:0;
+    right:0;
+}
+.major .top  .main .box:hover{
+    background:#BD1067;
+}
+.major .top .main .box a{
+    display: block;
+    font-size: 18px;
+    color:#fff;
+    text-align: center;
+    line-height: 40px;
+}
+.major .top .main .box a i{
+    font-size: 12px;
+    color:#fff;
+}
+.major .top .main .he .active{
+    background:#BD1067;
+}
+.major .top .main .he .box:nth-child(6) .list{
+    width: 200px;
+    margin-top: -3px;
+    background:#FC46A5;
+    z-index: 1;
+    position: absolute;
+    top:43px;
+    left:762px;
+    display: none;
+}
+.major .top .main .box:nth-child(6):hover .list{
+    display: block;
+}
+.major .top .main .box:nth-child(6) .list a .listBox{
+    width: 100%;
+    height: 44px;
+    background:#F72493;
+    font-size: 16px;
+    color:#fff;
+    line-height:47.5px;
+    position: relative;
+}
+.major .top .main .box:nth-child(6) .list a .listBox:hover{
+    background:#F10180;
+}
+.major .top .main .box:nth-child(6) .list a .listBox i{
+    font-size: 12px;
+    position: absolute;
+    top:0;
+    right:0;
+}
+.major .banner {
+    width: 100%;
+    height:360px;
+}
+.major .banner a{
+    display:block;
+    width: 100%;
+    height:360px;
+    position: absolute;
+    top:40px;
+    left:0;
+}
+
+.major .banner a:nth-child(1) img{
+    display: block;
+    width: 100%;
+    height:360px;
+    transition: 0.3s;
+}
+.major .banner a:nth-child(2) img{
+    display: block;
+    width: 100%;
+    height:360px;
+    position: absolute;
+    top:0;
+    left:0;
+    opacity: 0;
+}
+.major .banner a:nth-child(3) img{
+    display: block;
+    width: 100%;
+    height:360px;
+    position: absolute;
+    top:0;
+    left:0;
+    opacity: 0;
+}
+.major .banner .Dot{
+    width: 90px;
+    height: 22px;
+    position:absolute;
+    bottom:20px;
+    left:600px;
+    background:#C9C79E;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.major .banner .Dot .dott{
+    width: 12px;
+    height: 12px;
+    background:#E5E4D9;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.major .banner .Dot .dott1{
+    background:#fff;
+    width: 25px;
+    border-radius:5px;
+}
+.major .banner .jiantou{
+    width: 1226px;
+    height: 50px;
+    margin-left:40px;
+    position: absolute;
+    top:150px;
+    left:0;
+    display: flex;
+    justify-content: space-between;
+
+}
+.major .banner .jiantou .left{
+    width: 30px;
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+    line-height: 30px;
+    background:rgba(0,0,0,0.1);
+    display: none;
+}
+.major .banner .jiantou .right{
+    width: 30px;
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+    line-height: 30px;
+    background:rgba(0,0,0,0.1);
+    display: none;
+}
+.major .banner:hover .jiantou .left{
+    display: block;
+}
+.major .banner:hover .jiantou .right{
+    display: block;
+}
+.renqi{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    margin-top:420px;
+    overflow: hidden;
+}
+.renqi .main .box{
+     width: 100%;
+     height: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+ }
+.renqi .main .box img:hover{
+    opacity:0.6;
+}
+.beijing{
+    width: 100%;
+    background:#FFF9F2;
+    overflow: hidden;
+}
+.beijing .main .check{
+    width: 100%;
+}
+.beijing .main .check .top{
+    width: 100%;
+    height: 40px;
+    font-size:24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background:yellowgreen;*/
+}
+.beijing .main .check .top b{
+    margin-right: 10px;
+}
+.beijing .main .check .bott{
+    width: 100%;
+    height: 370px;
+    background:#fff;
+}
+.beijing .main .check .bott img{
+    display: block;
+    width: 188px;
+    height: 185px;
+    float: left;
+    margin-right:45px;
+}
+.beijing .main .check .bott img:hover{
+    opacity:0.6;
+}
+.beijing .main .check .bott a:nth-child(1) img{
+    width: 244px;
+    height: 370px;
+}
+/*品牌特卖开始*/
+.beijing .main .brand{
+    width: 100%;
+    margin-top:30px;
+}
+.beijing .main .brand .top{
+    width: 100%;
+    height: 40px;
+    font-size:24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.beijing .main .brand .bei{
+    width: 100%;
+    height: 825px;
+    background:#fff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.beijing .main .brand .bei .bott{
+    width:550px;
+    height: 275px;
+    background:yellow;
+    float:left;
+    position: relative;
+}
+.beijing .main .brand .bei .bott .text{
+    width: 100%;
+    height: 40px;
+    background:#fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.beijing .main .brand .bei .bott .text b{
+    font-size: 24px;
+    color:#F10582;
+    margin-right:20px;
+}
+.beijing .main .brand .bei .bott .text p{
+    font-size: 18px;
+}
+.beijing .main .brand .bei .bott .lan{
+    width: 100%;
+    height: 30px;
+    background:rgba(0,0,0,0.5);
+    position: absolute;
+    bottom: 40px;
+    font-size: 18px;
+    color:#fff;
+    line-height: 30px;
+}
+.beijing .main .brand .bott:nth-child(2){
+    margin-left: 126px;
+}
+.beijing .main .brand .bei .bott a{
+    display: block;
+}
+.beijing .main .brand .bei .bott a img{
+    display: block;
+    width: 550px;
+    height: 235px;
+}
+/*品牌特卖结束*/
+/*爆款单品开始*/
+.beijing .main .sheet{
+    width: 100%;
+}
+.beijing .main .sheet .top{
+    width: 100%;
+    height: 40px;
+    /*background:red;*/
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    font-size: 24px;
+}
+.beijing .main .sheet .bott{
+    width: 100%;
+    height: 784px;
+}
+.beijing .main .sheet .bott .box{
+    width: 290px;
+    height: 380px;
+    background: #fff;
+    float: left;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size:18px;
+    border: 1px solid #F10180;
+}
+.beijing .main .sheet .bott .box a{
+    display: block;
+}
+.beijing .main .sheet .bott .box a img{
+    display: block;
+    width: 270px;
+    height: 270px;
+    margin-top: 10px;
+}
+
+.beijing .main .sheet .bott .box p{
+    margin-top: 20px;
+}
+.beijing .main .sheet .bott .box .money{
+    width: 100%;
+    height: 40px;
+    margin-top: 15px;
+    font-size: 18px;
+    color:red;
+    text-align: center;
+    line-height: 40px;
+}
+.beijing .main .sheet .bott .box .money del{
+    font-size: 12px;
+    color:#000;
+}
+/*爆款单品结束*/
+/*底层部分开始*/
+.bottom{
+    width: 100%;
+    height: 280px;
+    background:#eee;
+    overflow: hidden;
+}
+.bottom .main .shang{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    /*background: red;*/
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+.bottom .main .shang .box{
+    width: 25%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+.bottom .main .shang .box i{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.bottom .main .xia{
+    width: 100%;
+    height: 150px;
+   display: flex;
+}
+.bottom .main .xia .box{
+    width: 25%;
+    height: 100%;
+    padding-left:30px;
+    box-sizing: border-box;
+}
+.bottom .main .xia .box dd{
+    display: flex;
+    flex-direction: column;
+    margin-top:10px;
+}
+.bottom .main .xia .box dd a{
+    margin-top:5px;
+    font-size: 16px;
+}
+.bottom .main .xia .box dd a:hover{
+    color:#E8467B;
+    transform: translateX(1px);
+}
+.bottom .main .heng{
+    width: 100%;
+    height:20px;
+    background:#E8467B;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#eee;
+}
+.bottom .main .heng a span{
+    color:#fff;
+    margin-right: 20px;
+}
+/*底层部分结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
